@@ -1,1 +1,2 @@
 @hourly		cd /data && /data/bin/python3 /data/oto_webpage.py
+@weekly     rm /data/$LOG_PATH && touch /data/$LOG_PATH
